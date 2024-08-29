@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Light mode styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode button {
+    background-color: white;
+    color: black;
+}
